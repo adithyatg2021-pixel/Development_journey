@@ -1,0 +1,1 @@
+print("Logical reasoning, Critical thinking, programming skills, Team work, Problem-solving, Adaptability")

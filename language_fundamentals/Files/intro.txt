@@ -1,0 +1,7 @@
+
+File operations:
+
+Read : To read the content of a file using python file
+write : Overwrite something to a file
+append : Write something to an existing file
+

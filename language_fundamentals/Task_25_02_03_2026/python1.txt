@@ -1,0 +1,6 @@
+Key features include:
+
+Easy-to-read syntax that resembles natural language.
+Extensive standard library and a vast ecosystem of third-party packages.
+Cross-platform compatibility (runs on Windows, macOS, Linux, etc.).
+Widely used in web development, data science, artificial intelligence, automation, and more.

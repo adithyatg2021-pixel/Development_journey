@@ -1,0 +1,12 @@
+Sci-Fi:7
+Romance:13
+Action:27
+Thriller:9
+Comedy:5
+Animation:3
+Drama:15
+Sports:1
+Crime:1
+Superhero:3
+Biography:1
+Fantasy:1

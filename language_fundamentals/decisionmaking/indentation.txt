@@ -1,0 +1,10 @@
+movies:
+    malayalam:
+        lokah
+        esra
+    tamil:
+        leo
+        rakshasan
+    hindi:
+        sayyara
+        ashique

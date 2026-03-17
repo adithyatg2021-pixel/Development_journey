@@ -1,0 +1,1 @@
+print("My hobbies are singing,dancing and reading")

@@ -1,0 +1,1 @@
+print("Projects: Event notifier, Job authentication system using ML and NLP")

@@ -1,0 +1,7 @@
+print("Applications of python")
+print("Web development")
+print("Datascience and ML")
+print("AI")
+print("IOT")
+print("Bigdata")
+print("Game development")

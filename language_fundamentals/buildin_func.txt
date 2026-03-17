@@ -1,0 +1,7 @@
+print(message) => display msg
+input(message) => read value through console
+type(value) => data type of value
+round(number,ndigit) 
+range(start,stop,step = 1) => Sequence
+len() => Return number of objects , applicable for non numeric type
+

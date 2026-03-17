@@ -1,0 +1,5 @@
+number = 4
+square = number ** 2
+cube = number ** 3
+print("Square of", number,"is",square)
+print("Cube of",number,"is",cube)

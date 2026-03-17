@@ -1,0 +1,74 @@
+### SOFTWARE DEVELOPMENT
+Python
+Java
+JavaScript
+C++
+Ruby
+Swift
+Go
+Rust
+PHP
+SQL
+NoSQL
+HTML5
+CSS3
+React
+Angular
+Vue.js
+Node.js
+Docker
+Kubernetes
+AWS
+Azure
+Google Cloud Platform
+Git
+GitHub
+CI/CD
+Unit Testing
+
+### DATA & ANALYTICS
+Data Analysis
+Machine Learning
+Deep Learning
+Artificial Intelligence
+TensorFlow
+PyTorch
+Pandas
+NumPy
+Tableau
+Power BI
+R Programming
+Statistical Modeling
+Data Visualization
+Big Data
+Hadoop
+Spark
+
+### SOFT SKILLS
+Communication
+Teamwork
+Problem Solving
+Time Management
+Leadership
+Adaptability
+Critical Thinking
+Conflict Resolution
+Public Speaking
+Emotional Intelligence
+Creativity
+Work Ethic
+
+### PROJECT MANAGEMENT & BUSINESS
+Agile
+Scrum
+Kanban
+Project Planning
+Strategic Thinking
+Risk Management
+Budgeting
+Market Research
+Product Management
+Customer Relationship Management (CRM)
+Salesforce
+SEO
+Digital Marketing

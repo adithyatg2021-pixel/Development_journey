@@ -1,0 +1,15 @@
+month = input("Enter month name:")
+
+match month:
+    case "january":print("31 Days")
+    case "february":print("28 Days")
+    case "march":print("31 Days")
+    case "april":print("30 Days")
+    case "may":print("31 Days")
+    case "june":print("30 Days")
+    case "july":print("31 Days")
+    case "august":print("31 Days")
+    case "september":print("30 Days")
+    case "october":print("31 Days")
+    case "november":print("30 Days")
+    case "december":print("31 Days")

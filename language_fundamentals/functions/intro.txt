@@ -1,0 +1,25 @@
+functions are set of statements used to perform a specific task
+benefit = reuse
+built in funcions = print(),input(),....
+
+Function call
+-------------
+
+range(10,50,3) actual values passing through funcion call is arguments.
+
+function_name(argument1,argument2, argument3, ...)
+
+print("Hello world",end="\t") arg1 = "Hello world", arg2 = \t
+
+Function definition
+-------------------
+function declaration key word = "def"
+
+def function_name (param1, param2):
+
+    [    function body              ]
+
+Eg:
+
+def say_hello():
+    print("Hello")
