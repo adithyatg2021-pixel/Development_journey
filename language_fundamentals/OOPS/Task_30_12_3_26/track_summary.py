@@ -1,15 +1,14 @@
-class TrackSummary:
-    def __init__(self,name,artist,genre,popularity):
-        self.track_name = name
-        self.artist = artist
-        self.genre = genre
-        self.popularity = popularity
-    
-    def summary(self):
-        print("Track name:",self.track_name)
-        print("Artist:",self.artist)
-        print("Genre:",self.genre)
-        print("Popularity:",self.popularity)
+from csv import DictReader
+class Spotify:
+    def __init__(self):
+        fr = open("language_fundamentals\\OOPS\\Task_30_12_3_26\\spotify-tracks-dataset.csv",encoding="utf-8")
+        self.data = list(DictReader(fr))
+class TrackSummary(Spotify):
+    def __init__(self):
+        super().__init__()
 
-track_summary_inst = TrackSummary("Believer","Imagine Dragons","Rock",90)
+    def summary(self):
+        for di in self.data:
+            print(f"Track name:{di.get("track_name")}, Artist:{di.get("artists")}, Genre:{di.get("track_genre")}, Popularity:{di.get("popularity")}")
+track_summary_inst = TrackSummary()
 track_summary_inst.summary()

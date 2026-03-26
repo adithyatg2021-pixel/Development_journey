@@ -1,15 +1,18 @@
-class AcousticTrack:
-    def __init__(self,name,acousticness):
-        self.track_name = name
-        self.acousticness = acousticness
+from csv import DictReader
+class Spotify:
+    def __init__(self):
+        fr = open("language_fundamentals\\OOPS\\Task_30_12_3_26\\spotify-tracks-dataset.csv",encoding="utf-8")
+        self.data = list(DictReader(fr))
+class AcousticTrack(Spotify):
+    def __init__(self):
+        super().__init__()
 
     def check_acoustic(self):
-        print("Track name:",self.track_name)
-        if 0.0 <= self.acousticness <= 1.0:
-            print("Song is acoustic.")
-            print("Acoustic value:",self.acousticness)
-        else:
-            print("Non acoustic.")
-
-acoustic_instance = AcousticTrack("Perfect",0.65) 
+        for di in self.data:
+            print("Track name:",di.get("track_name"))
+            if float(di.get("acousticness")) > 0.5:
+                print("Song is acoustic.")
+            else:
+                print("Non acoustic.")
+acoustic_instance = AcousticTrack() 
 acoustic_instance.check_acoustic()
