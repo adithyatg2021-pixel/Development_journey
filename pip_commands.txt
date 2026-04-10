@@ -1,0 +1,6 @@
+pip --version
+pip list[to list all packages]
+
+mysql-connector-python
+pandas
+matplotlib
